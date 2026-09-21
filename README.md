@@ -8,7 +8,8 @@ R code supporting the statistical analyses and figures for:
 Repository contents
 statistical_analysis.R — statistical analyses reported in the manuscript
 figures.R — code to generate the manuscript figures
-Requirements
+
+Requirements:
 R (version 4.5 or later)
 Packages: readxl, ggplot2, patchwork
 Data availability
