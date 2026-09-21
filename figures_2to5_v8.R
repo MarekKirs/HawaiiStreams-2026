@@ -5,14 +5,14 @@
 ##   Fig 4  FIB/coliphage concentrations by human-marker status (boxplots)
 ##   Fig 5  Spearman heatmap: microbial indicators x physico-chemical variables
 ##
-## INPUT : data-final-5d81e002.xlsx  (4 header rows, then 80 data rows)
+## INPUT : data-final.xlsx  (4 header rows, then 80 data rows)
 ## NEEDS : install.packages(c("readxl","ggplot2","patchwork"))
 ## Each section writes a 600-dpi PNG + TIFF.
 ## =====================================================================
 
 library(readxl); library(ggplot2); library(patchwork)
 set.seed(42)
-DATA <- "data-final-5d81e002.xlsx"
+DATA <- "data-final.xlsx"
 
 island_levels <- c("Oahu","Maui","Kauai","Hawaii")
 island_labels <- c("O‘ahu","Maui","Kaua‘i","Hawai‘i")
