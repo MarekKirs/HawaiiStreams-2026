@@ -1,5 +1,5 @@
 # HawaiiStreams-2026
-Hawaii Streams in review
+Hawaii Streams (under review)
 
 R code supporting the statistical analyses and figures for:
 
