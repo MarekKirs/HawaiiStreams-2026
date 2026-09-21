@@ -15,12 +15,7 @@ Data availability
 
 Raw data are included in this repository under data/.
 
-Usage
 
-Scripts are intended to be run in the following order:
-
-statistical_analysis.R
-figures.R
 Contact
 
 Marek Kirs, Water Resources Research Center, University of Hawaiʻi at Mānoa kirs@hawaii.edu
