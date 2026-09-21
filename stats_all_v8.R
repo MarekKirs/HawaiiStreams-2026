@@ -3,8 +3,8 @@
 ## Reproduces the tests behind Sections 3.2–3.6, Table 4, and Tables S6–S10.
 ##
 ## INPUT FILES (place in the working directory):
-##   data-final-5d81e002.xlsx        (4 header rows, then 80 data rows)
-##   landuse-clean-c615a1e2.xlsx      (NOAA C-CAP land cover, % per watershed)
+##   data-final.xlsx        (4 header rows, then 80 data rows)
+##   landuse-clean.xlsx      (NOAA C-CAP land cover, % per watershed)
 ##
 ## REQUIREMENTS:  install.packages("readxl")     # base R is used otherwise
 ##
@@ -28,8 +28,8 @@
 library(readxl)
 set.seed(2025)
 
-DATA <- "data-final-5d81e002.xlsx"
-LU   <- "landuse-clean-c615a1e2.xlsx"
+DATA <- "data-final.xlsx"
+LU   <- "landuse-clean.xlsx"
 
 ## ------------------------------------------------------------------ ##
 ## 1. LOAD DATA                                                        ##
